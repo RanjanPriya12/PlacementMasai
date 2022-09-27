@@ -1,0 +1,44 @@
+.productCart{
+    height: 300px;
+    width: 280px;
+    background-color: rgb(48, 161, 161);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.wishlist{
+    width: 200px;
+    padding: 8px;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.wishlist:hover{
+    background-color: rgb(43, 43, 182);
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+.grid{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    gap: 20px;
+}
+.link1:hover,.link1{
+    color: white;
+    text-decoration: none;
+}

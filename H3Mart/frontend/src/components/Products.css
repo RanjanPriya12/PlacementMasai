@@ -1,0 +1,75 @@
+.image{
+    height: 30px;
+    width: 30px;
+}
+
+.topNav{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.logo>img{
+   width: 80px;
+   height: 80px;
+}
+
+.imageIcon>div>img{
+width: 20px;
+width: 20px;
+}
+
+.flex{
+    display: flex;
+    width: 25%;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    font-size: 20px;
+    height: 200px;
+}
+td{
+    border: 1px solid teal;
+    border-collapse: collapse;
+}
+.mainbutton{
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+}
+button{
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.tableheading{
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+}
+
+.tableclass{
+   width: 90%;
+   margin: auto;
+   margin-top: -160px;
+   border: 1px solid rgb(165, 162, 162);
+   border-collapse: collapse;
+  z-index: 1;
+  background-color: white;
+}
